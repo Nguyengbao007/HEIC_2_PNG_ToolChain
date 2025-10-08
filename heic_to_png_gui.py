@@ -178,7 +178,7 @@ def convert_heic_folder_to_png_gui(inp, outb, pref, rec, cl, mode, tw, th, avoid
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("HEIC → PNG Converter (Smooth + Stop)")
+        self.title("HEIC → PNG Converter Tool Chain")
         # Tăng kích thước cửa sổ để không che nút Browse/Stop/Progress:
         self.geometry("950x550")
         self.resizable(False, False)  # Cố định để không bị thu nhỏ mất nút
